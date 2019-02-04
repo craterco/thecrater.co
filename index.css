@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+}
+
+body * {
+    font-family: 'Heebo', sans-serif;
+}
+
+/*START: const modifiers*/
+.flex {
+    display: flex;
+    height: 100%;
+}
+
+.flex.column {
+    flex-direction: row;
+}
+
+.flex.rows {
+    flex-direction: column;
+}
+
+.flex.rows .c-row {
+    flex: 1;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.flex.column>* {
+    flex: 1;
+}
+
+.column.c-row>.v-center {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.column.c-row>.v-bottom {
+    position: relative;
+    top: 90%;
+    bottom: 0;
+}
+
+/*END: const modifiers*/
+
+.crater-title__wrap {
+    background-color: black;
+    color: white;
+}
+
+.crater-subtitle{
+    font-size: 1.8rem;
+}
+.crater-content__wrap {
+    background-color: blue;
+    color: white
+}
+
+.crater-content__wrap>div,
+.crater-title__wrap>div {
+    margin: auto;
+}
+
+.crater-logo {
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 800;
+
+}
