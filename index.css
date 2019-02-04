@@ -53,9 +53,14 @@ body * {
 .crater-subtitle{
     font-size: 1.8rem;
 }
+
 .crater-content__wrap {
     background-color: blue;
     color: white
+}
+
+.crater-quote{
+    
 }
 
 .crater-content__wrap>div,
